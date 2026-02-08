@@ -1,6 +1,6 @@
 /* ---------- Base ---------- */
 body {
-  font-family: "Georgia", "Times New Roman", serif;
+  /* font-family: "Georgia", "Times New Roman", serif; */
   background: linear-gradient(#faf7f2, #f3ede4);
   padding: 3%;
 
@@ -27,7 +27,7 @@ body {
   margin: 6px;
   padding: 8px 16px;
   font-family: inherit;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   background: #fff;
   border: 1px solid #cbb9a7;
   border-radius: 20px;
@@ -59,6 +59,20 @@ body {
   font-size: 1.8rem;
 }
 
+/* Script-specific fonts (must match Google Fonts link) */
+#lyrics.kannada {
+  font-family: "Noto Serif Kannada", serif;
+}
+#lyrics.devanagari {
+  font-family: "Noto Serif Devanagari", serif;
+}
+#lyrics.tamil {
+  font-family: "Noto Sans Tamil", serif;
+}
+#lyrics.english {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
 
 /* ---------- Top Bar ---------- */
 .top-bar {
@@ -78,7 +92,7 @@ body {
 /* Main title */
 #songTitle {
   margin: 0;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #4b2c14;
   line-height: 1.2;
 }
@@ -86,7 +100,7 @@ body {
 /* Subtitle */
 #songSubtitle {
   margin-top: 4px;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #7a5a3a;
   font-style: italic;
 }
@@ -114,7 +128,6 @@ body {
 #menu {
   max-width: 720px;
   margin: 0 auto;
-  font-family: "Montserrat", "Times New Roman", serif;
 }
 
 /* Each song link */
