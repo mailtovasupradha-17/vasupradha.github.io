@@ -40,11 +40,24 @@ if (filePath) {
 }
 
 function parseMarkdown(text) {
-  const titleMatch = text.match(/title:\s*(.*)/);
+  /* ---- Title ---- */
+  const titleMatch = text.match(/^title:\s*(.*)$/m);
   if (titleMatch) {
-    document.getElementById("songTitle").innerText = titleMatch[1];
+    document.getElementById("songTitle").innerText = titleMatch[1].trim();
   }
 
+  /* ---- Subtitle ---- */
+  const subtitleMatch = text.match(/^subtitle:\s*(.*)$/m);
+  const subtitleEl = document.getElementById("songSubtitle");
+
+  if (subtitleMatch && subtitleEl) {
+    subtitleEl.innerText = subtitleMatch[1].trim();
+    subtitleEl.style.display = "block";
+  } else if (subtitleEl) {
+    subtitleEl.style.display = "none"; // hide if not present
+  }
+
+  /* ---- Lyrics Sections ---- */
   const sections = text.split("## ").slice(1);
   sections.forEach(section => {
     const [key, ...content] = section.split("\n");
@@ -58,4 +71,6 @@ function showScript(script) {
   currentScript = script;
   document.getElementById("lyrics").innerText =
     lyricsData[script] || "Lyrics not available.";
+  
+  lyricsEl.className = scriptName;
 }

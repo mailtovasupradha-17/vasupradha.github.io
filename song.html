@@ -2,13 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  
   <title>Song Lyrics</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?
+    family=Merriweather:ital,wght@0,400;0,700;1,400
+    &family=Noto+Sans+Devanagari:wght@400;700
+    &family=Noto+Sans+Kannada:wght@400;700
+    &family=Noto+Sans+Tamil:wght@400;700
+    &display=swap"
+  rel="stylesheet">
 </head>
 <body>
 
-<h1 id="songTitle"></h1>
+<a href="index.html" class="back-button">← Back</a>
+<!-- <div class="top-bar"> -->
 
+  <div class="title-block">
+    <h1 id="songTitle"></h1>
+    <div id="songSubtitle"></div>
+  </div>
+<!-- </div> -->
 <div class="nav-tabs">
   <button onclick="showScript('kannada')">Kannada</button>
   <button onclick="showScript('devanagari')">Devanagari</button>
@@ -16,7 +33,7 @@
   <button onclick="showScript('english')">English</button>
 </div>
 
-<div id="lyrics"></div>
+<div id="lyrics" class="kannada"></div>
 
 <script src="js/scripts.js"></script>
 </body>

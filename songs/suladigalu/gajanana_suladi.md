@@ -1,5 +1,6 @@
 ---
-title: Gajanana Suladi (Sri Abhinava Pranesha Dasaru)
+title: Gajanana Suladi
+subtitle: (Sri Abhinava Pranesha Dasaru)
 ---
 
 ## kannada
