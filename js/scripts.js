@@ -69,8 +69,10 @@ function parseMarkdown(text) {
 
 function showScript(script) {
   currentScript = script;
-  document.getElementById("lyrics").innerText =
-    lyricsData[script] || "Lyrics not available.";
-  
-  lyricsEl.className = scriptName;
+
+  const lyricsEl = document.getElementById("lyrics"); // 🔑 missing
+  if (!lyricsEl) return;
+
+  lyricsEl.innerText = lyricsData[script] || "Lyrics not available.";
+  lyricsEl.className = script; // 🔑 fix
 }
