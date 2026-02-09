@@ -8,6 +8,10 @@ body {
   line-height: 1.7;
 }
 
+.site-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+}
 /* ---------- Title ---------- */
 #songTitle {
   text-align: center;
@@ -25,7 +29,7 @@ body {
 
 .nav-tabs button {
   margin: 6px;
-  padding: 8px 16px;
+  padding: 16px 20px;
   font-family: inherit;
   font-size: 1.5rem;
   background: #fff;
@@ -129,19 +133,21 @@ body {
 /* ---------- Index Menu (structure-agnostic) ---------- */
 
 #menu {
-  max-width: 720px;
+  max-width: 900px;
   margin: 0 auto;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
 }
 
 /* Each song link */
 #menu a {
   display: block;
   position: relative;
-  padding-left: 26px;
+  padding-left: 40px;
   margin-bottom: 14px;
 
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #5a2d0c;
   letter-spacing: 0.3px;
 }
@@ -153,7 +159,7 @@ body {
   left: 0;
   top: 2px;
   color: #8b5a2b;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 #menu a:hover {
@@ -164,6 +170,10 @@ body {
 @media (max-width: 600px) {
   body {
     padding: 14px;
+  }
+
+  #menu {
+    font-size: 1.2rem;
   }
 
   #lyrics {
