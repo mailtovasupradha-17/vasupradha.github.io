@@ -220,7 +220,7 @@ dhareyoḷu vistarisi mahime tōri u-
 ddharisi sajjanarannu meredu parama sukha |
 tvaritadi tōrikkoṭṭu guruvara guṇavarya |
 sura-muni rāghavēndra narana sārathi śrī 
-dhanvantari viṭṭhalanna karuṇa nīkṣisi takṣaṇadi uddharisuva 
+dhanvantari viṭṭhalanna karuṇa nīkṣisi
 karuṇa nīkṣisi takṣaṇadi uddharisuva || 5 ||
 
 jate
