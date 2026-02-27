@@ -1,5 +1,5 @@
 ---
-title: Sri Lakshmi Stotra Suladi
+title: Lakshmi Stotra Suladi
 subtitle: (Sri Gopala Dasaru)
 ---
 

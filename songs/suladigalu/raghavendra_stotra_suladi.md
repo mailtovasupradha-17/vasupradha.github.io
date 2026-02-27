@@ -1,5 +1,5 @@
 ---
-title: Sri Raghavendra Stotra Suladi
+title: Raghavendra Stotra Suladi
 subtitle: (Sri Dhanvantri Vittala Dasaru)
 ---
 

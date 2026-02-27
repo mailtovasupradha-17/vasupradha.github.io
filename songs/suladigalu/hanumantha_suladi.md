@@ -1,5 +1,5 @@
 ---
-title: Sri Hanumantha Suladi 
+title: Hanumantha Suladi 
 subtitle: (Sri Purandara Dasaru)
 ---
 

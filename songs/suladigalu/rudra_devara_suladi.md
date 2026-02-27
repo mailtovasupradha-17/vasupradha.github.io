@@ -1,5 +1,5 @@
 ---
-title: Sri Rudra Devara Suladi 
+title: Rudra Devara Suladi 
 subtitle: (Sri Abhinava Pranesha Dasaru)
 ---
 
